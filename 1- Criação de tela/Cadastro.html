@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="tl.css">
 </head>
+
 <body>
 
-    <select name="Produto">
-        <option id="Codprod">Coca cola</option>
-        <option id="Codprod">Chips</option>
-        <option id="Codprod">H2O</option>
-        <option id="Codprod">Banana</option>
-    </select> 
-    <br>
+    <div id="area-cabecalho">
+        <h1>Administração de <span class="branco">PRODUTOS</span></h1>
+    </div>
 
-    <h2>Informação do produto</h2>
-    <label for="Codprod">Codigo</label>
-    <input type="number" id="Codprod">
-    <br>
-    <label for="Nprod">Nome</label>
-    <input type="text" id="Npod">
-    <br>
-    <label for="Catprod">Categoria</label>
-    <input type="number" id="Catprod">
-    <br>
-    <label for="Vlprod">Valor</label>
-    <input type="number" id="Vlprod">
-    <br>
-    <label for="Qtprod">Quantidade</label>
-    <input type="number" id="Qtprod">
-    <br><br>
-    <input type="submit" value="ok">
+    <div id="area-principal" align="center">
+
+        <div>
+            <select name="Produto">
+                <option id="Codprod">Coca cola</option>
+                <option id="Codprod">Chips</option>
+                <option id="Codprod">H2O</option>
+                <option id="Codprod">Banana</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <h2>Informação do produto</h2>
+            
+            <br><br>
+
+            <label for="Codprod">Codigo:</label>
+            <input type="number" id="Codprod">
+            <br><br>
+            <label for="Nprod">Nome:</label>
+            <input type="text" id="Npod">
+            <br><br>
+            <label for="Catprod">Categoria:</label>
+            <input type="number" id="Catprod">
+            <br><br>
+            <label for="Vlprod">Valor:</label>
+            <input type="number" id="Vlprod">
+            <br><br>
+            <label for="Qtprod">Quantidade:</label>
+            <input type="number" id="Qtprod">
+        </div>
+
+        <br><br>
+
+        <div>
+            <a href="cadastro.html">Cancelar</a>
+            <a href="cadastro.html">Deletar</a>
+            <a href="index.html">Ok</a>
+        </div>
+    </div>
+
+    <div id="rodape">
+        Todos os direitos reservados HMei
+    </div>
+
 </body>
+
 </html>
