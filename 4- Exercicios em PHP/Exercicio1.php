@@ -8,6 +8,4 @@ $tempo_download = $tamanho_real/$link;
 
 echo "O tempo aproximado é ". $tempo_download;
 
-
-
 ?>

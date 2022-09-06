@@ -1,0 +1,7 @@
+4- Por que não vemos no código fonte, nenhum comando escrito em PHP, somente HTML? O que está acontecendo?
+
+Um arquivo PHP é um programa de computador que gera uma página da web, ele transpila o código PHP em uma pagina WEB, porem precisa de um servidor para realizar esse processo, no caso o IIS ou XAMP.
+
+5- Como que o XAMPP funciona no seu computador?
+
+O XAMP funciona como um servidor, realiza a conversão do arquivo PHP para o navegador conseguir executar.
