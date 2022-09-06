@@ -1,0 +1,27 @@
+Faça os exercícios a seguir.
+Use uma pasta do seu Google Drive acadêmico para compartilhar as respostas.
+
+1)
+Faça um programa em javascript que capture o conteúdo de um elemento de entrada (input) e mostre automaticamente a tabuada desse número no console.
+
+
+2)
+Faça um programa em Javacript que capture a entrada do usuário, dinamicamente, contendo:
+- nome do aluno
+- nota 1
+- nota 2
+O programa deve retornar em um alert() a média aritmética das 2 notas.
+
+3)
+Como você faria para esconder o elemento "p" no código abaixo? Responda com uma página de exemplo onde um botão será clicado para mostrar/esconder o elemento.
+
+<p id="demo"></p>
+
+
+4) 
+Faça uma página que mude apenas o primeiro elemento que tenha a classe com nome "test":
+
+
+
+<p class="test"></p> 
+<p class="test"></p>

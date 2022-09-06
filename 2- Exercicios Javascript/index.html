@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+
+   
+</head>
+<body>
+    <h1>Exercício 1</h1>
+    <h3>Faça um programa em javascipt que capture o conteúdo
+        de um elemento de entrada(input) e mostre automaticamente
+        a tabuada desse número no console.</h3>
+        <p>Digite um numero</p>    
+        <input id="inputExercicio1" type="text"  onkeypress="return validAndReturn()">
+
+
+        <h1>Exercício 2</h1>
+    <h3>Faça um programa em javascipt que capture a entrada do usuário dinamicamente
+        contendo <br><br> -nome do usuário <br>-nota1 <br> -nota2</h3>
+    <h3>O programa deve retornar em um alert() a média aritmética das 2 notas</h3>
+
+        <p>Nome do Aluno</p>
+        <input type="text" id="inputExercirio2Nome" >
+        <p>Nota 1</p>
+        <input type="text" id="inputExercirio2Nota1" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        <p>Nota 2</p>
+        <input type="text" id="inputExercirio2Nota2" onkeypress="return  event.charCode >= 48 && event.charCode <= 57">
+        <button id ="buttonExericio2"onclick="calcularMedia()" >Validar</button>
+
+
+        <h1>Exercício 3</h1>
+        <h3>Como você faria para esconder o elemento "p" no código abaixo?
+            Responda com uma página de exemplo onde um botão será clicado para mostrar/escoder o 
+            elemento.
+        </h3>
+        <p id="demo">Paragrafo que será escondido no clique do botão</p>
+        <button  id="buttonEsconderExercicio3" onclick="esconderParagrafoExercicio3()">Esconder</button>
+
+
+        <h1>Exercício 4</h1>
+        <h3>Faça uma página que mude apenas o primeiro elemento que tenha a classe com o nome test.
+        </h3>
+
+        <p class="teste">paragrafo 1</p>
+        <p class="teste">paragrafo 2</p>
+        <button id="buttonExercicio4"onclick= "mudarParagrafo1()">Mudar primeiro Paragrafo</button>
+
+
+
+</body>
+<script type="text/javascript" src="Js/script.js"></script>    
+</html>
