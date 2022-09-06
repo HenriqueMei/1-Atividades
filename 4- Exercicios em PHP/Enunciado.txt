@@ -1,0 +1,63 @@
+Resolva os seguintes exercícios em PHP.
+Salve os códigos em PHP em uma pasta do seu Google Drive e depois compartilhe a pasta como resposta.
+Utilize comandos como echo e print_r  para mostrar os dados na tela.
+Pesquise sempre.
+
+1. 
+Faça um script que tenha como entrado um tamanho qualquer de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos)
+
+
+2.
+Dada a seguinte string:
+"Ouviram do Ipiranga às margens plácidas".
+Faça um script em PHP que
+a) reverta a string
+b) conte quantas palavras existem na string
+c) Procure se a substring "gen" está presente e em qual posição. Se não estiver presente, mostre 0.
+d) Meça o tamanho da string.
+
+3.
+Pequeno desafio.
+Considere a string: 
+"Maybe one day I'll be an honest man
+Up 'til now I'm doing the best I can"
+(trecho da música Wasting Love do Iron Maiden, apenas porque teve show hoje)
+
+
+Considere cada espaço como o limitador que "quebra" a string dada em substrings menores. Exemplo:
+"All of our lives, covered up quicklyBy the tides of time"
+Será quebrada nas seguintes substrings: ["All", "of', "our", "lives,", "covered", "up", "quickly", ..., "tides", "of", "time"].
+Dada a string inicial, quantas substrings menores ela terá? 
+Dica: use a função explode(). Mostre o código PHP para tal.
+
+4. 
+Dada a url:
+https://www.eccentrictravels.com.br/index.php?pagina=down_aeronaves
+
+Esta página é desenvolvida em PHP, te garanto! Eu que desenvolvi há muito tempo atrás.
+Navegue até ela e no seu navegador, use a opção de mostrar o código fonte. Se estiver usando o Chrome, o atalho é Ctrl+U. 
+Verifique o código fonte gerado.
+Por que não vemos no código fonte, nenhum comando escrito em PHP, somente HTML? O que está acontecendo?
+
+
+5.
+Como que o XAMPP funciona no seu computador?
+Se o PHP tem que rodar em um servidor Apache com PHP, como que o Xampp funciona?
+
+
+6.
+Escreva um programa em PHP para testar se um determinado número é potência de 4.
+Entrada: 16
+Saída: É potência de 4
+
+
+7. 
+Mostre em um código criado por você como criar uma variável e atribuir valores diferentes a ela. Em seguida, imprima esses valores no navegador usando uma instrução echo. Esta declaração só pode incluir as palavras "O valor é: ". Imprima cada instrução em uma nova linha usando quebras de linha. O resultado deve ficar mais ou menos assim:
+"O valor é uma string. 
+O valor é o dobro. 
+O valor é um booleano. 
+O valor é um número inteiro. 
+O valor é um NULO."
+
+ 
+Estou a disposição para as dúvidas

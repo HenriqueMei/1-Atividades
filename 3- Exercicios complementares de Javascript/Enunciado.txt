@@ -1,0 +1,36 @@
+1. 
+Escreva uma função em Javascript que pegue os valores do Nome e Sobrenome do seguinte form:
+
+
+<!DOCTYPE html> 
+<html>
+<head> 
+<meta charset=utf-8 /> 
+<title>Exercício1</title> 
+</head>
+<body> 
+<form id="form1" onsubmit="getFormvalue()"> 
+Nome: <input type="text" name="nome" value="Jair">
+<br> 
+Sobrenome: <input type="text" name="sobrenome" value="Inácio">
+<br> 
+<input type="submit" value="Ok"> 
+</form> 
+</body> 
+</html>
+
+
+
+2.
+Escreva um programa em Javascript que encontre o sinal do produto de três números.
+Mostre um alert() com o sinal encontrado.
+Exemplo: 
+Entrada: 3, -7, 2
+: O sinal é "-"
+
+
+3. 
+Escreva um programa em javacript que faça um loop de 1 a 15. Para cada iteração, o programa verifica se o número atual é par ou ímpar e escreve uma mensagem na tela, exemplo:
+"0 é par"
+"1 é impar"
+"2 é par"
