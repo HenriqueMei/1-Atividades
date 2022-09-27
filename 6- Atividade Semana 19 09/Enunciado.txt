@@ -1,0 +1,6 @@
+Objetivo:
+Faça um formulário em HTML com 3 campos:
+- nome
+- idade
+- data de nascimento.
+Em seguida, faça um script em PHP que receba os dados por meio das variáveis $_SERVER e $_REQUEST e mostre os dados enviados. Você pode usar também, se desejar as variáveis $_GET e $_POST.
